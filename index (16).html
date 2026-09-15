@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Discord Server Penal Code — Articles 1–15." />
+  <title>Discord Server Penal Code</title>
+  <style>
+    :root { color-scheme: dark light; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: Canvas; color: CanvasText; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.55; }
+    .shell { width: min(1080px, calc(100% - 32px)); margin: 0 auto; }
+    .hero { padding: 64px 0 42px; border-bottom: 1px solid color-mix(in srgb, CanvasText 20%, transparent); }
+    .eyebrow { margin: 0 0 10px; font-size: .8rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: color-mix(in srgb, CanvasText 65%, transparent); }
+    h1 { max-width: 760px; margin: 0; font-family: ui-serif, Georgia, serif; font-size: clamp(2.5rem, 7vw, 5.2rem); line-height: .98; letter-spacing: -.05em; }
+    .lead { max-width: 680px; margin: 22px 0 0; font-size: 1.15rem; color: color-mix(in srgb, CanvasText 76%, transparent); }
+    .nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 20px 0; border-bottom: 1px solid color-mix(in srgb, CanvasText 16%, transparent); }
+    .nav a { padding: 8px 11px; border: 1px solid color-mix(in srgb, CanvasText 22%, transparent); border-radius: 999px; color: inherit; text-decoration: none; font-size: .9rem; font-weight: 700; }
+    .nav a:hover, .nav a:focus-visible { background: Highlight; border-color: Highlight; color: HighlightText; outline: none; }
+    main { padding: 34px 0 60px; }
+    .intro { display: grid; gap: 16px; grid-template-columns: minmax(0, 1fr); margin-bottom: 26px; padding: 20px; border-left: 4px solid Highlight; background: color-mix(in srgb, CanvasText 6%, Canvas); }
+    .intro strong { font-size: 1.1rem; }
+    .article-grid { display: grid; gap: 16px; }
+    .article { padding: clamp(20px, 4vw, 32px); border: 1px solid color-mix(in srgb, CanvasText 20%, transparent); border-radius: 14px; background: color-mix(in srgb, CanvasText 3%, Canvas); }
+    .article-header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: start; gap: 12px; margin-bottom: 22px; }
+    .number { display: inline-flex; align-items: center; justify-content: center; min-width: 42px; height: 32px; padding: 0 10px; border: 1px solid color-mix(in srgb, CanvasText 24%, transparent); border-radius: 999px; background: transparent; color: color-mix(in srgb, CanvasText 72%, transparent); font-size: .82rem; font-weight: 800; letter-spacing: .06em; }
+    h2 { margin: 0; font-family: ui-serif, Georgia, serif; font-size: clamp(1.5rem, 3vw, 2.15rem); letter-spacing: -.025em; }
+    h3 { margin: 22px 0 7px; font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: color-mix(in srgb, CanvasText 66%, transparent); }
+    p { margin: 0; }
+    ul { margin: 8px 0 0; padding-left: 21px; }
+    li + li { margin-top: 6px; }
+    .sanction { margin-top: 20px; padding: 14px 16px; border: 1px solid color-mix(in srgb, CanvasText 18%, transparent); border-radius: 9px; }
+    .sanction b { display: block; margin-bottom: 3px; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; }
+    footer { padding: 22px 0 46px; border-top: 1px solid color-mix(in srgb, CanvasText 16%, transparent); color: color-mix(in srgb, CanvasText 65%, transparent); font-size: .9rem; }
+    @media (min-width: 800px) { .article-grid { grid-template-columns: 1fr 1fr; } .article:last-child { grid-column: 1 / -1; } }
+    @media print { .nav { display: none; } .hero { padding-top: 20px; } .article { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="shell">
+      <p class="eyebrow">Community Standards &amp; Enforcement</p>
+      <h1>Discord Server Penal Code</h1>
+      <p class="lead">Articles 1–18 establish how disruptive conduct, harassment, threats, harmful behavior, false reports, court attendance, cybersecurity, enforcement authority, and blackmailing are handled to keep the community safe and fair.</p>
+    </div>
+  </header>
+
+  <nav class="shell nav" aria-label="Penal code articles">
+    <a href="#article-1">Article 1</a>
+    <a href="#article-2">Article 2</a>
+    <a href="#article-3">Article 3</a>
+    <a href="#article-4">Article 4</a>
+    <a href="#article-5">Article 5</a>
+    <a href="#article-6">Article 6</a>
+    <a href="#article-7">Article 7</a>
+    <a href="#article-8">Article 8</a>
+    <a href="#article-9">Article 9</a>
+    <a href="#article-10">Article 10</a>
+    <a href="#article-11">Article 11</a>
+    <a href="#article-12">Article 12</a>
+    <a href="#article-13">Article 13</a>
+    <a href="#article-14">Article 14</a>
+    <a href="#article-15">Article 15</a>
+    <a href="#article-16">Article 16</a>
+    <a href="#article-17">Article 17</a>
+    <a href="#article-18">Article 18</a>
+  </nav>
+
+  <main class="shell">
+    <section class="intro" aria-label="Purpose">
+      <strong>Purpose</strong>
+      <span>These rules exist to protect server members and support consistent judicial enforcement. Outcomes may account for context, severity, impact, and prior conduct.</span>
+    </section>
+
+    <div class="article-grid">
+      <article class="article" id="article-1">
+        <div class="article-header"><h2>Article 1 — Spamming</h2><span class="number">Art. 1</span></div>
+        <h3>Definition</h3>
+        <p>Sending excessive, repetitive, or disruptive messages, emojis, mentions, or media.</p>
+        <div class="sanction"><b>Punishment</b>
+          <ul><li><strong>First offense:</strong> Warning.</li><li><strong>Second offense:</strong> Timeout of 10–30 minutes.</li><li><strong>Third offense:</strong> Temporary mute or temporary ban of 1–7 days.</li><li><strong>Repeated offenses:</strong> Permanent ban.</li></ul>
+        </div>
+      </article>
+
+      <article class="article" id="article-2">
+        <div class="article-header"><h2>Article 2 — Harassment</h2><span class="number">Art. 2</span></div>
+        <h3>Definition</h3>
+        <p>Targeting, insulting, or repeatedly bothering another member after being asked to stop.</p>
+        <div class="sanction"><b>Punishment</b>
+          <ul><li><strong>First offense:</strong> Warning or timeout.</li><li><strong>Repeated offenses:</strong> Temporary ban of 3–30 days.</li><li><strong>Severe cases:</strong> Permanent ban.</li></ul>
+        </div>
+      </article>
+
+      <article class="article" id="article-3">
+        <div class="article-header"><h2>Article 3 — Threats</h2><span class="number">Art. 3</span></div>
+        <h3>Definition</h3>
+        <p>Threatening harm, violence, intimidation, or another person's safety.</p>
+        <div class="sanction"><b>Punishment</b>
+          <ul><li><strong>Minor/non-serious threat:</strong> Warning or timeout.</li><li><strong>Serious or repeated threats:</strong> Temporary ban of 7–30 days.</li><li><strong>Credible threats of violence or safety:</strong> Immediate permanent ban.</li></ul>
+        </div>
+      </article>
+
+      <article class="article" id="article-4">
+        <div class="article-header"><h2>Article 4 — Disruptive Behaviour</h2><span class="number">Art. 4</span></div>
+        <h3>Definition</h3>
+        <p>Intentionally disrupting the server by causing unnecessary arguments, trolling, derailing conversations, mic spamming, or repeatedly disturbing other members.</p>
+        <div class="sanction"><b>Punishment</b>
+          <ul><li><strong>First offense:</strong> Warning.</li><li><strong>Second offense:</strong> Timeout of 30 minutes–24 hours.</li><li><strong>Repeated offenses:</strong> Temporary ban of 1–7 days.</li><li><strong>Severe or malicious disruption:</strong> Permanent ban, including raiding, deliberately ruining events, or repeated trolling after warnings.</li></ul>
+        </div>
+      </article>
+
+      <article class="article" id="article-5">
+        <div class="article-header"><h2>Article 5 — Bullying</h2><span class="number">Art. 5</span></div>
+        <h3>Definition</h3>
+        <p>Repeatedly mocking, insulting, intimidating, or targeting another member.</p>
+        <div class="sanction"><b>Punishment</b>
+          <ul><li><strong>First offense:</strong> Warning or timeout.</li><li><strong>Repeated offenses:</strong> Temporary ban of 3–30 days.</li><li><strong>Severe or sustained bullying:</strong> Permanent ban.</li></ul>
+        </div>
+      </article>
+
+      <article class="article" id="article-6">
+        <div class="article-header"><h2>Article 6 — Miscellaneous Offenses</h2><span class="number">Art. 6</span></div>
+        <h3>Definition</h3>
+        <p>Any conduct not specifically listed in this Code that is deemed harmful, disruptive, or detrimental to the community.</p>
+        <div class="sanction"><b>Punishment</b>
+          <ul><li><strong>Minor offense:</strong> Warning.</li><li><strong>Moderate offense:</strong> Timeout of up to 24 hours.</li><li><strong>Repeated or serious offense:</strong> Temporary ban of 1–30 days.</li><li><strong>Severe or malicious offense:</strong> Permanent ban.</li></ul>
+          <p>The Judge may determine the appropriate punishment based on the severity of the conduct and the user's prior history.</p>
+        </div>
+      </article>
+
+      <article class="article" id="article-7">
+        <div class="article-header"><h2>Article 7 — Aggravating Circumstances</h2><span class="number">Art. 7</span></div>
+        <h3>Definition</h3>
+        <p>Aggravating circumstances refer to any fact, condition, or conduct associated with an offence that renders it more serious in nature or consequence, thereby warranting an enhanced penalty at the discretion of the Judge.</p>
+        <p>The Judge may increase punishments when:</p>
+        <ul><li>The offender has previous violations.</li><li>The offense was intentional or malicious.</li><li>Multiple users were affected.</li><li>The offense involved evading the Judge's actions.</li></ul>
+        <div class="sanction"><b>Punishment</b>
+          <ul><li><strong>First offense:</strong> 30-minute mute.</li><li><strong>With aggravating circumstances:</strong> 2-hour mute.</li><li><strong>Repeated with aggravating circumstances:</strong> 1-day timeout.</li><li><strong>Continued misconduct:</strong> 7-day ban or permanent ban.</li></ul>
+        </div>
+      </article>
+
+      <article class="article" id="article-8">
+        <div class="article-header"><h2>Article 8 — False Reports</h2><span class="number">Art. 8</span></div>
+        <h3>Definition</h3>
+        <p>A false report is the intentional submission of information, evidence, or allegations that the reporting member knows to be false, fabricated, misleading, or materially inaccurate, with the purpose or effect of deceiving the Judge or causing unwarranted action against another member. Reports made honestly and in good faith that are later found to be incorrect do not constitute a false report.</p>
+        <ol><li><strong>8.1</strong> A member shall not knowingly submit a false, fabricated, or misleading report against another member.</li><li><strong>8.2</strong> Reports made in good faith that later prove to be incorrect shall not be considered false reports, provided there was no intent to deceive.</li><li><strong>8.3</strong> Deliberately submitting false reports to harass, inconvenience, or abuse the judicial process is prohibited.</li></ol>
+        <div class="sanction"><b>Punishment</b>
+          <ul><li><strong>First offense:</strong> Formal warning.</li><li><strong>Second offense:</strong> 12–24 hour mute.</li><li><strong>Repeated or severe offenses:</strong> Temporary ban of 3–14 days.</li><li><strong>Exceptional cases involving malicious or repeated abuse:</strong> Permanent ban at moderator discretion.</li></ul>
+        </div>
+      </article>
+
+      <article class="article" id="article-9">
+        <div class="article-header"><h2>Article 9 — Harassment</h2><span class="number">Art. 9</span></div>
+        <h3>Definition</h3>
+        <p>A member commits the offence of harassment by intentionally insulting, mocking, humiliating, threatening, or targeting another member through personal attacks, including but not limited to remarks concerning their appearance, family members, personal circumstances, or other protected or personal characteristics.</p>
+        <div class="sanction"><b>Punishment</b>
+          <ul><li><strong>Minor offence:</strong> Formal warning or 30-minute mute.</li><li><strong>Repeated offence:</strong> 12–24 hour mute.</li><li><strong>Serious or targeted harassment:</strong> Temporary ban of 3–14 days.</li><li><strong>Severe or persistent harassment:</strong> Permanent ban, at the discretion of the Judge.</li></ul>
+        </div>
+      </article>
+
+      <article class="article" id="article-10">
+        <div class="article-header"><h2>Article 10 — Failure to Appear Before the Court</h2><span class="number">Art. 10</span></div>
+        <h3>Definition</h3>
+        <p>A person who has been properly ordered or summoned to attend a scheduled Court proceeding and deliberately fails to appear without a valid reason.</p>
+        <div class="sanction"><b>Disciplinary Action</b>
+          <ul><li><strong>First failure:</strong> Formal warning and hearing rescheduled.</li><li><strong>Second failure:</strong> 1-day server restriction.</li><li><strong>Third failure:</strong> 3-day server restriction.</li><li><strong>Fourth failure:</strong> 7-day server restriction.</li><li><strong>Repeated or wilful refusal:</strong> 14-day restriction and Chief Judge review.</li><li><strong>Extreme or repeated abuse:</strong> 30-day restriction or further action under server rules.</li></ul>
+        </div>
+      </article>
+
+      <article class="article" id="article-11">
+        <div class="article-header"><h2>Article 11 — Continued Failure to Appear</h2><span class="number">Art. 11</span></div>
+        <p>Where a person has received the maximum 30-day restriction for repeated failure to appear before the Court and continues to deliberately refuse to comply with a valid Court summons:</p>
+        <ol>
+          <li><strong>Chief Judge Review.</strong> The matter shall be referred to the Chief Judge for a disciplinary hearing.</li>
+          <li><strong>Suspension of Court Privileges.</strong> The Chief Judge may impose a suspension of 30 to 90 days, depending on the severity and circumstances of the violation.</li>
+          <li><strong>Restriction of Court Participation.</strong> During the suspension, the person may be prohibited from:
+            <ul><li>Filing cases;</li><li>Participating in Court hearings;</li><li>Representing parties before the Court; and</li><li>Exercising other Court-related privileges.</li></ul>
+          </li>
+          <li><strong>Removal from Authority Position.</strong> Where the person holds a judicial or other Court position, the Chief Judge may remove them from that position following disciplinary review.</li>
+          <li><strong>Removal from the Court System.</strong> In cases involving extreme or repeated wilful misconduct, the Chief Judge may recommend permanent removal from the Court system.</li>
+          <li><strong>Disciplinary Order.</strong> Any decision made under this Article shall be recorded in an official Disciplinary Order stating the violation, findings, penalty imposed, and duration of the sanction.</li>
+        </ol>
+        <p><em>Nothing in this Article shall by itself establish guilt for the underlying case or offence.</em></p>
+      </article>
+
+      <article class="article" id="article-12">
+        <div class="article-header"><h2>Article 12 — Persistent Failure to Appear and Permanent Ban</h2><span class="number">Art. 12</span></div>
+        <ol>
+          <li><strong>Offence of Persistent Failure to Appear.</strong> Any person who, having been lawfully summoned or ordered to appear before the Court, wilfully and repeatedly fails to appear without a valid or sufficient reason, after having exhausted the penalties prescribed under Article 11, commits an offence under this Article.</li>
+          <li><strong>Judicial Authority.</strong> Where the Court determines that the failure to appear is deliberate and constitutes serious or repeated disobedience of the Court's authority, the presiding Judge shall impose a Permanent Ban.</li>
+          <li><strong>Permanent Ban.</strong> A person subject to a Permanent Ban shall permanently be prohibited from appealing.</li>
+          <li><strong>Enforcement of Ban.</strong> The Permanent Ban shall take effect immediately upon issuance of the Court's final order and shall remain in force.</li>
+          <li><strong>Judicial Record.</strong> The Court shall record the Permanent Ban in a Final Judicial Enforcement Order, stating the violation, findings, sanction imposed, issuing Judge, and effective date.</li>
+          <li><strong>Underlying Offence.</strong> A conviction or sanction under this Article concerns the person's failure to comply with the Court's proceedings. Failure to appear shall not, by itself, constitute proof of guilt for the underlying offence.</li>
+          <li><strong>Underlying Case.</strong> Nothing in this Article shall, by itself, establish guilt for the underlying case or offence. Any determination of guilt shall be made separately based on the evidence and applicable provisions of the Penal Code.</li>
+        </ol>
+      </article>
+
+      <article class="article" id="article-13">
+        <div class="article-header"><h2>Article 13 — Deliberate Voice Disruption</h2><span class="number">Art. 13</span></div>
+        <h3>Definition</h3>
+        <p>Intentionally using excessive volume, soundboards, microphone spam, screaming, audio distortion, or similar methods to disrupt other members or interfere with server activities.</p>
+        <ol>
+          <li><strong>§3.1 — First Offence.</strong> <strong>Penalty:</strong> 6-hour voice mute and formal warning.</li>
+          <li><strong>§3.2 — Second Offence.</strong> <strong>Penalty:</strong> 24-hour voice mute and disciplinary record.</li>
+          <li><strong>§3.3 — Third Offence.</strong> <strong>Penalty:</strong> 3-day server suspension.</li>
+          <li><strong>§3.4 — Fourth Offence.</strong> <strong>Penalty:</strong> 7-day server suspension.</li>
+          <li><strong>§3.5 — Fifth Offence.</strong> <strong>Penalty:</strong> 14-day server suspension and mandatory court review.</li>
+          <li><strong>§3.6 — Sixth or Further Offence.</strong> <strong>Penalty:</strong> Up to 30-day server suspension or permanent removal from the server, subject to judicial review.</li>
+          <li><strong>§3.7 — Evasion of Punishment.</strong> Attempting to evade a mute or suspension through an alternate account, another user's account, or other means shall be considered an aggravating circumstance. <strong>Penalty:</strong> The Court may impose an additional suspension or increase the applicable penalty.</li>
+          <li><strong>§3.8 — Judicial Review.</strong> Where a case reaches court, the Judge shall determine the final disciplinary penalty after reviewing the available evidence and the offender's disciplinary history.</li>
+          <li><strong>§3.9 — Mitigating Circumstances.</strong> The Judge may reduce a penalty where the disruption was accidental, caused by a technical problem, immediately stopped upon instruction, or where other significant circumstances justify leniency.</li>
+        </ol>
+      </article>
+
+      <article class="article" id="article-14">
+        <div class="article-header"><h2>Article 14 — Unnecessary Noise</h2><span class="number">Art. 14</span></div>
+        <ol>
+          <li><strong>§1.1 — Offence.</strong> Any person who, without reasonable cause, makes excessive or disruptive noise within a voice channel, thereby disturbing other persons or interfering with the ordinary operation of the server, shall be guilty of Unnecessary Noise.</li>
+          <li><strong>§1.2 — First Offence.</strong> A person convicted under this Article for a first offence shall receive a formal warning.</li>
+          <li><strong>§1.3 — Second Offence.</strong> A second offence shall be punishable by up to one (1) hour of voice-channel suspension.</li>
+          <li><strong>§1.4 — Third Offence.</strong> A third offence shall be punishable by up to six (6) hours of voice-channel suspension.</li>
+          <li><strong>§1.5 — Fourth Offence.</strong> A fourth offence shall be punishable by up to twenty-four (24) hours of voice-channel suspension.</li>
+          <li><strong>§1.6 — Fifth Offence.</strong> A fifth offence shall be punishable by up to three (3) days of server suspension.</li>
+          <li><strong>§1.7 — Sixth Offence.</strong> A sixth offence shall be punishable by up to seven (7) days of server suspension and referral to the Court for judicial review.</li>
+          <li><strong>§1.8 — Further Repeated Offences.</strong> Where a person commits further offences under this Article following the penalties prescribed above, the Court may impose a suspension of up to thirty (30) days or permanent removal from the server, having regard to the offender's disciplinary history and the circumstances of the offence.</li>
+          <li><strong>§1.9 — Escalation to Deliberate Disruption.</strong> Where the Court finds that the offender intentionally continued the conduct for the purpose of disrupting, harassing, or interfering with other persons, the conduct may instead constitute an offence under Article 13 — Deliberate Voice Disruption.</li>
+          <li><strong>§1.10 — Judicial Authority.</strong> The Court shall determine the final penalty upon conviction. Any immediate measures necessary to preserve order shall be carried out by the designated enforcement authority in accordance with this Code.</li>
+        </ol>
+      </article>
+
+      <article class="article" id="article-15">
+        <div class="article-header"><h2>Article 15 — Repeated Noise Disturbance</h2><span class="number">Art. 15</span></div>
+        <ol>
+          <li><strong>§2.1 — Offence.</strong> Any person who, after being lawfully instructed by an Enforcement Officer to cease excessive or disruptive noise, knowingly continues such conduct shall be guilty of Repeated Noise Disturbance.</li>
+          <li><strong>§2.2 — First Offence.</strong> A first offence shall be punishable by a formal warning and up to two hours of voice-channel suspension.</li>
+          <li><strong>§2.3 — Second Offence.</strong> A second offence shall be punishable by up to twelve hours of voice-channel suspension.</li>
+          <li><strong>§2.4 — Third Offence.</strong> A third offence shall be punishable by up to three days of server suspension.</li>
+          <li><strong>§2.5 — Fourth Offence.</strong> A fourth offence shall be punishable by up to seven days of server suspension and referral to the Court for judicial review.</li>
+          <li><strong>§2.6 — Further Repeated Offences.</strong> Where a person commits further offences under this Article, the Court may impose a suspension of up to thirty days or permanent removal from the server, having regard to the offender's disciplinary history and the circumstances of the offence.</li>
+          <li><strong>§2.7 — Aggravating Circumstances.</strong> The Court may impose a higher penalty where the offender deliberately ignores repeated lawful instructions, targets another person, disrupts an official proceeding, or attempts to evade a previous punishment.</li>
+          <li><strong>§2.8 — Judicial Authority.</strong> The Court shall determine the final penalty following review of the evidence. The Enforcement Officer may take immediate action necessary to restore order in accordance with this Code.</li>
+        </ol>
+      </article>
+
+      <article class="article" id="article-16">
+        <div class="article-header"><h2>Article 16 — Malicious Links and Cybersecurity Attacks</h2><span class="number">Art. 16</span></div>
+        <ol>
+          <li><strong>§16.1 — Prohibited Conduct.</strong> Any person who knowingly sends, posts, or distributes a link intended to compromise, hack, steal information from, or otherwise harm another member of the server commits an offence.</li>
+          <li><strong>§16.2 — First Offence.</strong> Immediate removal of the malicious link, a 30-day server restriction, and a formal disciplinary record.</li>
+          <li><strong>§16.3 — Serious or Deliberate Offence.</strong> Where the link is deliberately designed to steal credentials, session tokens, personal information, or compromise an account or device: a 60–90 day restriction, removal of access to relevant server privileges, and mandatory Chief Judge disciplinary review.</li>
+          <li><strong>§16.4 — Repeated or Extreme Offence.</strong> Where the person repeatedly distributes malicious links or deliberately targets multiple members: permanent ban from the server, permanent removal of court and server privileges, and a case record as a serious cybersecurity violation.</li>
+          <li><strong>§16.5 — No-Fault Provision.</strong> A person who unknowingly shares a malicious link should not receive the same punishment as someone who knowingly distributes it. The Court should consider intent, circumstances, and whether the person immediately removes and reports the link.</li>
+          <li><strong>§16.6 — Evidence.</strong> Messages, links, screenshots, timestamps, and relevant security reports may be preserved as evidence.</li>
+        </ol>
+      </article>
+
+      <article class="article" id="article-17">
+        <div class="article-header"><h2>Article 17 — Abuse of Enforcement Authority</h2><span class="number">Art. 17</span></div>
+        <h3>Offence</h3>
+        <p>An Enforcement Officer commits the offence of Abuse of Enforcement Authority if they knowingly enter, monitor, investigate, or interfere with a designated private call without the authorization required by law.</p>
+        <h3>Punishments</h3>
+        <p>Depending on the severity of the violation, the following penalties may be imposed:</p>
+        <ul>
+          <li><strong>First offence:</strong> Formal warning.</li>
+          <li><strong>Second offence:</strong> Suspension of Enforcement privileges for up to 14 days.</li>
+          <li><strong>Serious or deliberate violation:</strong> Suspension of Enforcement privileges for up to 30 days.</li>
+          <li><strong>Repeated or aggravated violation:</strong> Removal from the Enforcement Office.</li>
+          <li><strong>Severe abuse of authority:</strong> Permanent disqualification from holding an Enforcement position and referral to the Judiciary.</li>
+        </ul>
+        <h3>Aggravating Factors</h3>
+        <p>The punishment may be increased where the officer:</p>
+        <ul>
+          <li>Knowingly ignored a CAU/NRU decision;</li>
+          <li>Used their Enforcement position to gain access;</li>
+          <li>Intentionally monitored members without authorization;</li>
+          <li>Repeatedly violated the rule; or</li>
+          <li>Misused information obtained from the private call.</li>
+        </ul>
+      </article>
+
+      <article class="article" id="article-18">
+        <div class="article-header"><h2>Article 18 — Blackmailing</h2><span class="number">Art. 18</span></div>
+        <h3>Definition</h3>
+        <p>A person commits blackmailing if they knowingly demand money, items, services, access, silence, or any other benefit from another person by threatening to reveal, publish, withhold, damage, or misuse information, images, messages, account access, or other material that may cause harm, embarrassment, or loss.</p>
+        <h3>Penalties</h3>
+        <ul>
+          <li><strong>First offence:</strong> Formal warning, removal of the offending content or demand, and up to a 7-day server restriction.</li>
+          <li><strong>Second offence:</strong> Up to a 30-day server restriction and a formal disciplinary record.</li>
+          <li><strong>Serious or deliberate offence:</strong> 30–90 day server restriction, removal of relevant server privileges, and mandatory Court review.</li>
+          <li><strong>Repeated, aggravated, or severe offence:</strong> Permanent ban from the server and permanent removal of server privileges.</li>
+        </ul>
+        <h3>Aggravating Factors</h3>
+        <p>The Court may impose a higher penalty where the offender:</p>
+        <ul>
+          <li>Threatened to publish private, personal, or intimate material;</li>
+          <li>Targeted a minor or a vulnerable member;</li>
+          <li>Used stolen, hacked, or unlawfully obtained information;</li>
+          <li>Made repeated demands or targeted multiple members;</li>
+          <li>Attempted to conceal their identity or evade enforcement; or</li>
+          <li>Acted to obtain money, account access, or another significant benefit.</li>
+        </ul>
+        <h3>Evidence and Reporting</h3>
+        <p>Relevant messages, screenshots, recordings, timestamps, links, and reports may be preserved as evidence. Members should report suspected blackmailing promptly and should not comply with unlawful demands.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer><div class="shell">Discord Server Penal Code · Articles 1–18</div></footer>
+</body>
+</html>
